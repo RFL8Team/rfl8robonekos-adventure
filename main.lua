@@ -48,5 +48,7 @@ function love.draw()
 	love.graphics.setColor(1, 1, 1)
 	love.graphics.rectangle('fill', platform.x, platform.y, platform.width, platform.height)
 	love.graphics.draw(player.img, player.x, player.y, 0, 1, 1, 0, 32)
+    love.graphics.print('This is prototype, it will look different on the final release', 5, 5)
+    love.graphics.print('RFL8RoboNeko\'s adventure prototype 2', 5, 23)
 end
 
